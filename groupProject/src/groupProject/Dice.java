@@ -5,5 +5,6 @@ public class Dice {
 	String house;
 	
 	String Araadsf;
+	int asdfasdf;
 		
 }
