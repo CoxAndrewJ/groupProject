@@ -2,9 +2,6 @@ package groupProject;
 
 public class Dice {
 
-	String house;
+	String hello;
 	
-	String Araadsf;
-	int asdfasdf;
-		
 }

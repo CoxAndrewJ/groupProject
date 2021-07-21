@@ -12,8 +12,7 @@ public class Javapocalypse {
 	public static void main(String[] args) {
 		@SuppressWarnings("unused")
 		TitleFrame frame = new TitleFrame();
-		
-		
+	
 	}
 	
 	
