@@ -33,7 +33,7 @@ public class TitleFrame extends JFrame {
 
 	//Layered Pane is used for character selection frame, characters is a boolean array returning which characters are chosen
 	private JLayeredPane layeredPane;
-	private boolean[] characters = new boolean[3];
+	private boolean[] characters = new boolean[4];
 	
 	
 	//Additional fields used for functionality
@@ -105,7 +105,7 @@ public class TitleFrame extends JFrame {
 	 */
 	private JPanel createReadyBtn(JFrame frame) {
 		readyPnl = new JPanel();
-		readyPnl.setBounds(this.getX()+275,this.getY()+600,130,95);
+		readyPnl.setBounds(this.getX()+570,this.getY()+600,130,95);
 		readyPnl.setVisible(false);
 		readyPnl.setLayout(new GridLayout(0, 1, 0, 0));
 		
@@ -143,7 +143,7 @@ public class TitleFrame extends JFrame {
 	private JPanel createCharacterPnl(JFrame frame) {
 		JPanel centerPnl = new JPanel();
 		centerPnl.setBackground(new Color(139, 0, 0));
-		centerPnl.setBounds(frame.getX(),frame.getY()+200, 630, 300);
+		centerPnl.setBounds(frame.getX()+315,frame.getY()+200, 630, 300);
 		centerPnl.setLayout(new BorderLayout(0, 0));
 
 		
@@ -245,7 +245,7 @@ public class TitleFrame extends JFrame {
 						characters[3]=false;
 					} else {
 						charactersSelected++;
-						characters[4]=true;
+						characters[3]=true;
 					}
 					if(charactersSelected==3) {
 						char4chx.setSelected(false);
