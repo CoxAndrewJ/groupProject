@@ -2,6 +2,6 @@ package groupProject;
 
 public class Dice {
 
-	String Hello = "hello";
+	String aadsf = "hasdf";
 		
 }
